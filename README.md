@@ -24,7 +24,6 @@ Usage
 
 ```
 git clone https://github.com/ashokgit/SynonymEditor
-cd synonym-editor
 
 ```
 
