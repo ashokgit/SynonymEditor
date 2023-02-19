@@ -23,7 +23,7 @@ Usage
 1. Clone the repository to your local machine:
 
 ```
-bashCopy codegit clone https://github.com/ashokgit/SynonymEditor
+git clone https://github.com/ashokgit/SynonymEditor
 cd synonym-editor
 
 ```
@@ -31,14 +31,14 @@ cd synonym-editor
 2. Install the required packages:
 
 ```
-bashCopy codepip install -r requirements.txt
+pip install -r requirements.txt
 
 ```
 
 3. Set up your OpenAI API key. You can create an API key by signing up for OpenAI at . Once you have your API key, export it to your environment variables:
 
 ```
-bashCopy codeexport OPENAI_API_KEY=your_api_key
+export OPENAI_API_KEY=your_api_key
 
 ```
 
@@ -46,7 +46,7 @@ bashCopy codeexport OPENAI_API_KEY=your_api_key
 5. Run the Synonym Editor with the input and output file paths:
 
 ```
-bashCopy codepython app.py input.txt output.txt
+python app.py input.txt output.txt
 
 ```
 
